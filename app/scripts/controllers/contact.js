@@ -20,7 +20,8 @@ angular.module('robitApp')
 
 			var data = {
 				'From': 'm@moogs.io',
-				'To': 'miguelmota2@gmail.com',
+				'To': 'official.robit@gmail.com',
+				"Cc" : "hello@miguelmota.com",
 				'HtmlBody': htmlBody
 			};
 
