@@ -1,0 +1,319 @@
+@import 'compass';
+@import url('http://fonts.googleapis.com/css?family=Monda');
+
+$icon-font-path: '/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/';
+
+// bower:scss
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+// endbower
+
+* {
+  @include box-sizing(border-box);
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right:  0;
+}
+
+/** Breakpoints */
+$break-small: 600px;
+$break-large: 1024px;
+
+@mixin respond-to($media) {
+  @if $media == mobile {
+    @media only screen and (max-width: $break-small) {
+      @content;
+    }
+  } @else if $media == tablet {
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1) {
+      @content;
+    }
+  } @else if $media == desktop {
+    @media only screen and (min-width: $break-large) {
+      @content;
+    }
+  }
+}
+
+$highlight-color: #96e5ff;
+$body-bg-image-url: '../images/rockywall.png';
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  font-family: 'Monda', inherit;
+  background: #fff image-url($body-bg-image-url) repeat 0 0;
+  overflow-x: hidden;
+}
+
+.container-fluid-main {
+  padding: 0;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+$jumbotron-bg-color: #e4ebdc;
+$jumbotron-bg-image-url: '../images/jumbotron-robit-los-angeles.png';
+
+.jumbotron {
+  @include clearfix();
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  background: $jumbotron-bg-color image-url($jumbotron-bg-image-url) no-repeat 0 50%;
+  background-size: 100% auto;
+  min-height: 850px;
+  max-height: 100%;
+  padding-top: 100px;
+  margin: 0;
+
+  @include respond-to(mobile) {
+    min-height: 600px;
+    background-position: right 50%;
+    background-size: auto 100%;
+  }
+
+  @include respond-to(tablet) {
+    min-height: 600px;
+  }
+}
+
+.jumbotron img {
+  float: left;
+  display: none;
+}
+
+.jumbotron h2 {
+  font-size: 65px;
+
+  @include respond-to(mobile) {
+    font-size: 48px;
+  }
+}
+
+.jumbotron .lead {
+  font-size: 40px;
+
+  @include respond-to(mobile) {
+    font-size: 18px;
+  }
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Marketing */
+$marketing-padding: 20px;
+
+.marketing {
+  padding: $marketing-padding;
+
+  @include respond-to(mobile) {
+    padding: 10px;
+  }
+}
+
+.marketing h2 {
+  font-size: 50px;
+}
+
+.marketing h4 {
+  font-size: 32px;
+}
+
+.gplus-footer {
+  @include hide-text();
+  position: absolute;
+  left: -10000px;
+  bottom: -10000px;
+}
+
+/** Navbar */
+$navbar-bg-color: #000;
+$navbar-height: 80px;
+$navbar-button-color: #aaa;
+$navbar-button-bg-color: rgba(0, 0, 0, .5);
+$navbar-button-bg-color-hover: rgba(94, 94, 94, .5);
+$navbar-button-border-color: #222;
+$navbar-button-toggle-border-color: #aaa;
+$navbar-button-toggle-bar-color: #aaa;
+$navbar-background-image-url: '../images/dark_mosaic.png';
+
+.navbar-default {
+  background: $navbar-bg-color image-url($navbar-background-image-url) repeat 0 0;
+  height: $navbar-height;
+  border: none;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-brand {
+  @include transition(all ease-out .25s);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding: 30px 60px;
+  font-size: 22px;
+  height: $navbar-height - 1;
+  color: $navbar-button-color;
+  border-right: 1px solid $navbar-button-border-color;
+  cursor: pointer;
+
+  &:first-child {
+    border-left: 1px solid #222;
+  }
+
+  &:hover {
+    background: $navbar-button-bg-color-hover;
+  }
+
+  @include respond-to(mobile) {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid $navbar-button-border-color;
+    &:first-child {
+      border-left: none;
+    }
+  }
+
+  @include respond-to(tablet) {
+    padding: 30px 40px;
+  }
+}
+
+.navbar-brand {
+  background: $navbar-button-bg-color-hover;
+  text-transform: uppercase;
+  &:hover {
+    color: $navbar-button-color;
+  }
+
+  @include respond-to(mobile) {
+    padding: 20px;
+  }
+}
+
+.navbar-default .collapse,
+.navbar-default .collapsing,
+.navbar-default .collapse.in {
+  border: none;
+  background: $navbar-bg-color image-url($navbar-background-image-url) repeat 0 0;
+  padding: 0;
+}
+
+.navbar-default .collapsing .navbar-nav,
+.navbar-default .collapse.in .navbar-nav {
+  width: 100%;
+  float: none;
+  margin: 0;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background: transparent;
+  border-color: $navbar-button-toggle-border-color;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin: -22px 0 0 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: $navbar-button-toggle-bar-color;
+}
+
+/** Music */
+
+.list-group-item-soundcloud {
+  padding: 5px;
+}
+
+.list-group-item-podcast {
+  padding: 30px;
+  font-size: 18px;
+}
+
+/** Social */
+
+$marketing-social-bg-color: #222;
+$marketing-social-color: #ccc;
+$marketing-social-bg-image-url: '../images/escheresque_ste.png';
+$gallery-photo-bg-color: #000;
+$gallery-photo-margin: 5px;
+$gallery-photo-padding: 5px;
+
+.marketing-social {
+  background: $marketing-social-bg-color image-url($marketing-social-bg-image-url) repeat 0 0;
+  color: $marketing-social-color;
+}
+
+.marketing-social h2 {
+  color: $marketing-social-color;
+}
+
+.twitter-timeline {
+  width: 100%;
+}
+
+.list-group-photos {
+  padding: 0;
+}
+
+.list-group-photos-item {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: $gallery-photo-margin;
+  padding: $gallery-photo-padding;
+  background: $gallery-photo-bg-color;
+
+  @include respond-to(mobile) {
+    width: 100%;
+    height: auto;
+    margin: $gallery-photo-margin 0;
+  }
+}
+
+.list-group-photos-item img {
+  width: 100%;
+}
+
+/* Page footer */
+$footer-color: #999;
+$footer-bg-color: #222;
+$footer-bg-image-url: $navbar-background-image-url;
+
+.footer {
+  color: $footer-color;
+  font-size: 18px;
+  padding: 20px;
+  background: $footer-bg-color image-url($footer-bg-image-url) repeat 0 0;
+}
