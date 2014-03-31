@@ -1,18 +1,18 @@
 'use strict';
 
-describe('Service: Podcastfeed', function () {
+describe('Service: PodcastFeed', function () {
 
   // load the service's module
   beforeEach(module('robitApp'));
 
   // instantiate service
   var Podcastfeed;
-  beforeEach(inject(function (_Podcastfeed_) {
-    Podcastfeed = _Podcastfeed_;
+  beforeEach(inject(function (_PodcastFeed_) {
+    PodcastFeed = _PodcastFeed_;
   }));
 
   it('should do something', function () {
-    expect(!!Podcastfeed).toBe(true);
+    expect(!!PodcastFeed).toBe(true);
   });
 
 });

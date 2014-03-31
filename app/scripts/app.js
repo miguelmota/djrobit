@@ -8,7 +8,7 @@ angular
 		'ngRoute',
 		'ui.bootstrap'
 	])
-	.config(function ($routeProvider, $logProvider) {
+	.config(function ($routeProvider, $logProvider, $httpProvider) {
 		$logProvider.debugEnabled(true);
 		$routeProvider
 			.when('/', {
@@ -18,5 +18,9 @@ angular
 			.otherwise({
 				redirectTo: '/'
 			});
-	});
 
+		$httpProvider.defaults.headers.common = {};
+		$httpProvider.defaults.headers.post = {};
+		$httpProvider.defaults.headers.put = {};
+		$httpProvider.defaults.headers.patch = {};
+	});
