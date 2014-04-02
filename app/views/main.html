@@ -11,10 +11,10 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-navbar-collapse">
             <ul class="nav navbar-nav pull-right">
-                <li><a ng-click="scrollTo('about')">About</a></li>
-                <li><a ng-click="scrollTo('music')">Music</a></li>
-                <li><a ng-click="scrollTo('social')">Social</a></li>
-                <li><a ng-click="scrollTo('contact')">Contact</a></li>
+                <li><a href="#about" rb-scroll-to>About</a></li>
+                <li><a href="#music" rb-scroll-to>Music</a></li>
+                <li><a href="#social" rb-scroll-to>Social</a></li>
+                <li><a href="#contact" rb-scroll-to>Contact</a></li>
             </ul>
         </div>
     </div>
@@ -113,23 +113,35 @@
             <form role="form" name="contactForm">
                 <div class="form-group" ng-class="{error: contactForm.name.$invalid}">
                     <label>Full Name</label>
-                    <input class="form-control" type="text" name="name" ng-model="msg.name" required="required" placeholder="Your name">
+                    <input class="form-control" type="text" name="name" ng-model="msg.name" required="required"
+                           placeholder="Your name">
                     <span class="help-block" ng-show="contactForm.name.$error.required">Required</span>
                 </div>
                 <div class="form-group" ng-class="{error: contactForm.email.$invalid}">
                     <label>Email</label>
-                    <input class="form-control" type="email" name="email" ng-model="msg.email" required="required" placeholder="Your email address">
+                    <input class="form-control" type="email" name="email" ng-model="msg.email" required="required"
+                           placeholder="Your email address">
                     <span class="help-block" ng-show="contactForm.email.$error.required">Required</span>
                     <span class="help-block" ng-show="contactForm.email.$error.email">Invalid email address</span>
                 </div>
                 <div class="form-group" ng-class="{error: contactForm.message.$invalid}">
                     <label>Message</label>
-                    <textarea class="form-control" rows="5" name="message" ng-model="msg.body" required="required" placeholder="Your messsage"></textarea>
+                    <textarea class="form-control" rows="5" name="message" ng-model="msg.body" required="required"
+                              placeholder="Your messsage"></textarea>
                     <span class="help-block" ng-show="contactForm.message.$error.required">Required</span>
                 </div>
-                <button class="btn btn-primary btn-lg btn-block" ng-click="send()" ng-disabled="contactForm.$invalid">Send</button>
+                <button class="btn btn-primary btn-lg btn-block" ng-click="send()" ng-disabled="contactForm.$invalid">
+                    Send
+                </button>
             </form>
         </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12" ng-controller="MapCtrl">
+
+        <div ng-repeat="marker in myMarkers" ui-map-marker="myMarkers[$index]"></div>
+
+        <div id="map" ui-map="model.myMap" class="map" ui-options="mapOptions"></div>
     </div>
 </div>
 

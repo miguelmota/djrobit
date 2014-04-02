@@ -1,14 +1,15 @@
 'use strict';
 
-angular
-	.module('robitApp', [
+angular.module('robitApp', [
 		'ngCookies',
 		'ngResource',
 		'ngSanitize',
 		'ngRoute',
-		'ui.bootstrap'
+		'ui.bootstrap',
+		'ui.map',
+		'ui.event'
 	])
-	.config(function ($routeProvider, $logProvider, $httpProvider) {
+	.config(function ($routeProvider, $logProvider, $httpProvider, $locationProvider) {
 		$logProvider.debugEnabled(true);
 		$routeProvider
 			.when('/', {
@@ -18,4 +19,10 @@ angular
 			.otherwise({
 				redirectTo: '/'
 			});
+
+		$locationProvider.html5Mode(true);
 	});
+
+function onGoogleReady() {
+	angular.bootstrap(document.body, ['robitApp']);
+}
