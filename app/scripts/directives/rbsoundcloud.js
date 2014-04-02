@@ -13,8 +13,6 @@ angular.module('robitApp')
 				$scope.getTracks = function (config) {
 					config = config || {};
 
-					config.clientIdDev = 'a5936f4a6e935d8695c2c6e0de46b830';
-
 					Soundcloud.getTracks(config).then(function (data) {
 
 						$log.debug('Soundcloud data:', data);

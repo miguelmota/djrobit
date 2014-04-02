@@ -18,9 +18,4 @@ angular
 			.otherwise({
 				redirectTo: '/'
 			});
-
-		$httpProvider.defaults.headers.common = {};
-		$httpProvider.defaults.headers.post = {};
-		$httpProvider.defaults.headers.put = {};
-		$httpProvider.defaults.headers.patch = {};
 	});

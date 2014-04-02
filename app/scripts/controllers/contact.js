@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('robitApp')
-	.controller('ContactCtrl', function ($scope, $http, $log) {
+	.controller('ContactCtrl', function ($scope, $http, $log, POSTMARK) {
 		$scope.success = false;
 		$scope.error = false;
 
@@ -12,6 +12,11 @@ angular.module('robitApp')
 						   '<div>Message: ' + $scope.msg.body + '</div>' +
 						   '<div>Date: ' + (new Date()).toString() + '</div>';
 
+			var textBody = 'Name: ' + $scope.msg.name + '\n' +
+				'Email: ' + $scope.msg.email + '\n' +
+				'Message: ' + $scope.msg.body + '\n' +
+				'Date: ' + (new Date()).toString() + '\n';
+
 			$log.debug('Send action called.');
 
 			$http.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
@@ -21,15 +26,17 @@ angular.module('robitApp')
 			var data = {
 				'From': 'm@moogs.io',
 				'To': 'official.robit@gmail.com',
-				"Cc" : "hello@miguelmota.com",
-				'HtmlBody': htmlBody
+				'ReplyTo' : $scope.msg.email,
+				'Cc' : 'hello@miguelmota.com',
+				'HtmlBody': htmlBody,
+				'TextBody': textBody,
+				'Subject': 'New Contact Form Submission'
 			};
 
 			var headers = {
 				'Accept': 'application/json',
 				'Content-Type': 'application/json',
-				'X-Postmark-Server-Token': 'ccd40485-6a1a-4e7b-ae75-ea3762f0583e',
-				'Subject': 'New Contact Form Submission'
+				'X-Postmark-Server-Token': POSTMARK.serverToken
 			};
 
 			var paramStr = $.param({url: url, data: JSON.stringify(data), headers: JSON.stringify(headers)});
