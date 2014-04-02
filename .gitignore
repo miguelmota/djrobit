@@ -95,7 +95,6 @@ publish
 _test
 _archive
 uploads
-dist
 
 # Vim files to ignore #
 #####################
