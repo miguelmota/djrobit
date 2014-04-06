@@ -321,7 +321,8 @@ module.exports = function (grunt) {
 							'views/{,*/}*.html',
 							'images/{,*/}*.{webp}',
 							'bower_components/**/*',
-							'styles/fonts/*'
+							'styles/fonts/*',
+							'podcast/*.{xml,json,jpg,png}'
 						]
 					},
 					{
