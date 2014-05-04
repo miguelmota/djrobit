@@ -34,6 +34,30 @@
 
 	<item>
 
+		<title>Robit Radio Ep. 005</title>
+
+		<itunes:author>DJ Robit</itunes:author>
+
+		<itunes:subtitle>Robit Radio Ep. 005</itunes:subtitle>
+
+		<itunes:summary>Robit Radio Ep. 005</itunes:summary>
+
+		<itunes:image href="http://www.djrobit.com/podcast/cover.png" />
+
+		<enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_005.mp3" length="57601234" type="audio/mpeg" />
+
+		<guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_005.mp3</guid>
+
+		<pubDate>Sun, 04 May 2014 12:00:00 PST</pubDate>
+
+		<itunes:duration>01:00:00</itunes:duration>
+
+		<itunes:explicit>no</itunes:explicit>
+
+	</item>
+
+	<item>
+
 		<title>Robit Radio Ep. 004</title>
 
 		<itunes:author>DJ Robit</itunes:author>
