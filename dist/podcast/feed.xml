@@ -34,6 +34,31 @@
 
 	<item>
 
+		<title>Robit Radio Ep. 008</title>
+
+		<itunes:author>DJ Robit</itunes:author>
+
+		<itunes:subtitle>Robit Radio Ep. 008</itunes:subtitle>
+
+		<itunes:summary>Robit Radio Ep. 008</itunes:summary>
+
+		<itunes:image href="http://www.djrobit.com/podcast/cover.png" />
+
+		<enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_008.mp3" length="57607086" type="audio/mpeg" />
+
+		<guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_008.mp3</guid>
+
+		<pubDate>Fri, 23 August 2014 12:00:00 PST</pubDate>
+
+		<itunes:duration>01:00:09</itunes:duration>
+
+		<itunes:explicit>no</itunes:explicit>
+
+	</item>
+
+
+	<item>
+
 		<title>Robit Radio Ep. 007</title>
 
 		<itunes:author>DJ Robit</itunes:author>
