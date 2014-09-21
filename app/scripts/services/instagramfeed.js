@@ -17,7 +17,6 @@ angular.module('robitApp')
 
 			$http.get(proxyUrl)
 				.success(function (data, status, headers, config, statusText) {
-					$log.debug(data);
 
 					deferred.resolve(data);
 				}).error(function (data, status, headers, config) {

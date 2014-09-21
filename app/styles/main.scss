@@ -51,7 +51,7 @@ $body-bg-image-url: '../images/rockywall.png';
 /* Space out content a bit */
 body {
   font-family: 'Monda', inherit;
-  background: #fff image-url($body-bg-image-url) repeat 0 0;
+  background: #fff url($body-bg-image-url) repeat 0 0;
   overflow-x: hidden;
 }
 
@@ -84,7 +84,7 @@ $jumbotron-bg-image-url: '../images/jumbotron-robit-los-angeles.png';
   @include clearfix();
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  background: $jumbotron-bg-color image-url($jumbotron-bg-image-url) no-repeat 0 50%;
+  background: $jumbotron-bg-color url($jumbotron-bg-image-url) no-repeat 0 50%;
   background-size: 100% auto;
   min-height: 850px;
   max-height: 100%;
@@ -166,7 +166,7 @@ $navbar-button-toggle-bar-color: #aaa;
 $navbar-background-image-url: '../images/dark_mosaic.png';
 
 .navbar-default {
-  background: $navbar-bg-color image-url($navbar-background-image-url) repeat 0 0;
+  background: $navbar-bg-color url($navbar-background-image-url) repeat 0 0;
   height: $navbar-height;
   border: none;
 }
@@ -223,7 +223,7 @@ $navbar-background-image-url: '../images/dark_mosaic.png';
 .navbar-default .collapsing,
 .navbar-default .collapse.in {
   border: none;
-  background: $navbar-bg-color image-url($navbar-background-image-url) repeat 0 0;
+  background: $navbar-bg-color url($navbar-background-image-url) repeat 0 0;
   padding: 0;
 }
 
@@ -255,6 +255,11 @@ $navbar-background-image-url: '../images/dark_mosaic.png';
   padding: 5px;
 }
 
+.podcast-tracks {
+  max-height: 450px;
+  overflow: scroll;
+}
+
 .list-group-item-podcast {
   padding: 30px;
   font-size: 18px;
@@ -270,7 +275,7 @@ $gallery-photo-margin: 5px;
 $gallery-photo-padding: 5px;
 
 .marketing-social {
-  background: $marketing-social-bg-color image-url($marketing-social-bg-image-url) repeat 0 0;
+  background: $marketing-social-bg-color url($marketing-social-bg-image-url) repeat 0 0;
   color: $marketing-social-color;
 }
 
@@ -326,5 +331,5 @@ $footer-bg-image-url: $navbar-background-image-url;
   color: $footer-color;
   font-size: 18px;
   padding: 20px;
-  background: $footer-bg-color image-url($footer-bg-image-url) repeat 0 0;
+  background: $footer-bg-color url($footer-bg-image-url) repeat 0 0;
 }

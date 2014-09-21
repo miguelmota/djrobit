@@ -2,231 +2,255 @@
 
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 
-<channel>
+  <channel>
 
-	<title>Robit Radio</title>
+    <title>Robit Radio</title>
 
-	<link>http://www.djrobit.com/</link>
+    <link>http://www.djrobit.com/</link>
 
-	<language>en-us</language>
+    <language>en-us</language>
 
-	<copyright>&#xA9; 2013 DJ Robit</copyright>
+    <copyright>&#xA9; 2013 DJ Robit</copyright>
 
-	<itunes:subtitle>Subscribe now to stay updated with the latest EDM tracks.</itunes:subtitle>
+    <itunes:subtitle>Subscribe now to stay updated with the latest EDM tracks.</itunes:subtitle>
 
-	<itunes:author>DJ Robit</itunes:author>
+    <itunes:author>DJ Robit</itunes:author>
 
-	<itunes:summary>Welcome to Robit Radio, the powerhouse of EDM featuring DJ Robit's mixes and mashups with the best EDM music from the world's the biggest artists. For more info visit djrobit.com.</itunes:summary>
+    <itunes:summary>Welcome to Robit Radio, the powerhouse of EDM featuring DJ Robit's mixes and mashups with the best EDM music from the world's the biggest artists. For more info visit djrobit.com.</itunes:summary>
 
-	<description>Welcome to Robit Radio, the powerhouse of EDM featuring DJ Robit's mixes and mashups with the best EDM music from the world's the biggest artists. For more info visit djrobit.com.</description>
+    <description>Welcome to Robit Radio, the powerhouse of EDM featuring DJ Robit's mixes and mashups with the best EDM music from the world's the biggest artists. For more info visit djrobit.com.</description>
 
-	<itunes:owner>
+    <itunes:owner>
 
-	<itunes:name>Robit Radio</itunes:name>
+      <itunes:name>Robit Radio</itunes:name>
 
-	<itunes:email>official.robit@gmail.com</itunes:email>
+      <itunes:email>official.robit@gmail.com</itunes:email>
 
-	</itunes:owner>
+    </itunes:owner>
 
-	<itunes:image href="http://www.djrobit.com/podcast/cover.png" />
+    <itunes:image href="http://www.djrobit.com/podcast/cover.png" />
 
-	<itunes:category text="Music" />
+    <itunes:category text="Music" />
 
-	<item>
+    <item>
 
-		<title>Robit Radio Ep. 008</title>
+      <title>Robit Radio Ep. 009</title>
 
-		<itunes:author>DJ Robit</itunes:author>
+      <itunes:author>DJ Robit</itunes:author>
 
-		<itunes:subtitle>Robit Radio Ep. 008</itunes:subtitle>
+      <itunes:subtitle>Robit Radio Ep. 009</itunes:subtitle>
 
-		<itunes:summary>Robit Radio Ep. 008</itunes:summary>
+      <itunes:summary>Robit Radio Ep. 009</itunes:summary>
 
-		<itunes:image href="http://www.djrobit.com/podcast/cover.png" />
+      <itunes:image href="http://www.djrobit.com/podcast/cover.png" />
 
-		<enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_008.mp3" length="57607086" type="audio/mpeg" />
+      <enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_009.mp3" length="57615863" type="audio/mpeg" />
 
-		<guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_008.mp3</guid>
+      <guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_009.mp3</guid>
 
-		<pubDate>Fri, 23 August 2014 12:00:00 PST</pubDate>
+      <pubDate>Sat, 20 September 20 2014 12:00:00 PST</pubDate>
 
-		<itunes:duration>01:00:09</itunes:duration>
+      <itunes:duration>01:00:29</itunes:duration>
 
-		<itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
 
-	</item>
+    </item>
 
+    <item>
 
-	<item>
+      <title>Robit Radio Ep. 008</title>
 
-		<title>Robit Radio Ep. 007</title>
+      <itunes:author>DJ Robit</itunes:author>
 
-		<itunes:author>DJ Robit</itunes:author>
+      <itunes:subtitle>Robit Radio Ep. 008</itunes:subtitle>
 
-		<itunes:subtitle>Robit Radio Ep. 007</itunes:subtitle>
+      <itunes:summary>Robit Radio Ep. 008</itunes:summary>
 
-		<itunes:summary>Robit Radio Ep. 007</itunes:summary>
+      <itunes:image href="http://www.djrobit.com/podcast/cover.png" />
 
-		<itunes:image href="http://www.djrobit.com/podcast/cover.png" />
+      <enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_008.mp3" length="57607086" type="audio/mpeg" />
 
-		<enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_007.mp3" length="57608758" type="audio/mpeg" />
+      <guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_008.mp3</guid>
 
-		<guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_007.mp3</guid>
+      <pubDate>Fri, 23 August 2014 12:00:00 PST</pubDate>
 
-		<pubDate>Thu, 26 July 2014 12:00:00 PST</pubDate>
+      <itunes:duration>01:00:09</itunes:duration>
 
-		<itunes:duration>01:00:17</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
 
-		<itunes:explicit>no</itunes:explicit>
+    </item>
 
-	</item>
 
-	<item>
+    <item>
 
-		<title>Robit Radio Ep. 006</title>
+      <title>Robit Radio Ep. 007</title>
 
-		<itunes:author>DJ Robit</itunes:author>
+      <itunes:author>DJ Robit</itunes:author>
 
-		<itunes:subtitle>Robit Radio Ep. 006</itunes:subtitle>
+      <itunes:subtitle>Robit Radio Ep. 007</itunes:subtitle>
 
-		<itunes:summary>Robit Radio Ep. 006</itunes:summary>
+      <itunes:summary>Robit Radio Ep. 007</itunes:summary>
 
-		<itunes:image href="http://www.djrobit.com/podcast/cover.png" />
+      <itunes:image href="http://www.djrobit.com/podcast/cover.png" />
 
-		<enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_006.mp3" length="57605414" type="audio/mpeg" />
+      <enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_007.mp3" length="57608758" type="audio/mpeg" />
 
-		<guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_006.mp3</guid>
+      <guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_007.mp3</guid>
 
-		<pubDate>Thu, 12 Jun 2014 12:00:00 PST</pubDate>
+      <pubDate>Thu, 26 July 2014 12:00:00 PST</pubDate>
 
-		<itunes:duration>01:00:02</itunes:duration>
+      <itunes:duration>01:00:17</itunes:duration>
 
-		<itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
 
-	</item>
+    </item>
 
+    <item>
 
-	<item>
+      <title>Robit Radio Ep. 006</title>
 
-		<title>Robit Radio Ep. 005</title>
+      <itunes:author>DJ Robit</itunes:author>
 
-		<itunes:author>DJ Robit</itunes:author>
+      <itunes:subtitle>Robit Radio Ep. 006</itunes:subtitle>
 
-		<itunes:subtitle>Robit Radio Ep. 005</itunes:subtitle>
+      <itunes:summary>Robit Radio Ep. 006</itunes:summary>
 
-		<itunes:summary>Robit Radio Ep. 005</itunes:summary>
+      <itunes:image href="http://www.djrobit.com/podcast/cover.png" />
 
-		<itunes:image href="http://www.djrobit.com/podcast/cover.png" />
+      <enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_006.mp3" length="57605414" type="audio/mpeg" />
 
-		<enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_005.mp3" length="57601234" type="audio/mpeg" />
+      <guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_006.mp3</guid>
 
-		<guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_005.mp3</guid>
+      <pubDate>Thu, 12 Jun 2014 12:00:00 PST</pubDate>
 
-		<pubDate>Sun, 04 May 2014 12:00:00 PST</pubDate>
+      <itunes:duration>01:00:02</itunes:duration>
 
-		<itunes:duration>01:00:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
 
-		<itunes:explicit>no</itunes:explicit>
+    </item>
 
-	</item>
 
-	<item>
+    <item>
 
-		<title>Robit Radio Ep. 004</title>
+      <title>Robit Radio Ep. 005</title>
 
-		<itunes:author>DJ Robit</itunes:author>
+      <itunes:author>DJ Robit</itunes:author>
 
-		<itunes:subtitle>Robit Radio Ep. 004</itunes:subtitle>
+      <itunes:subtitle>Robit Radio Ep. 005</itunes:subtitle>
 
-		<itunes:summary>Robit Radio Ep. 004</itunes:summary>
+      <itunes:summary>Robit Radio Ep. 005</itunes:summary>
 
-		<itunes:image href="http://www.djrobit.com/podcast/cover.png" />
+      <itunes:image href="http://www.djrobit.com/podcast/cover.png" />
 
-		<enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_004.mp3" length="57607086" type="audio/mpeg" />
+      <enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_005.mp3" length="57601234" type="audio/mpeg" />
 
-		<guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_004.mp3</guid>
+      <guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_005.mp3</guid>
 
-		<pubDate>Sun, 06 Apr 2014 12:00:00 PST</pubDate>
+      <pubDate>Sun, 04 May 2014 12:00:00 PST</pubDate>
 
-		<itunes:duration>01:00:19</itunes:duration>
+      <itunes:duration>01:00:00</itunes:duration>
 
-		<itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
 
-	</item>
+    </item>
 
-	<item>
+    <item>
 
-		<title>Robit Radio Ep. 003</title>
+      <title>Robit Radio Ep. 004</title>
 
-		<itunes:author>DJ Robit</itunes:author>
+      <itunes:author>DJ Robit</itunes:author>
 
-		<itunes:subtitle>Robit Radio Ep. 003</itunes:subtitle>
+      <itunes:subtitle>Robit Radio Ep. 004</itunes:subtitle>
 
-		<itunes:summary>Robit Radio Ep. 003</itunes:summary>
+      <itunes:summary>Robit Radio Ep. 004</itunes:summary>
 
-		<itunes:image href="http://www.djrobit.com/podcast/cover.png" />
+      <itunes:image href="http://www.djrobit.com/podcast/cover.png" />
 
-		<enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_003.mp3" length="57632163" type="audio/mpeg" />
+      <enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_004.mp3" length="57607086" type="audio/mpeg" />
 
-		<guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_003.mp3</guid>
+      <guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_004.mp3</guid>
 
-		<pubDate>Sun, 09 Mar 2014 20:00:00 PST</pubDate>
+      <pubDate>Sun, 06 Apr 2014 12:00:00 PST</pubDate>
 
-		<itunes:duration>01:00:02</itunes:duration>
+      <itunes:duration>01:00:19</itunes:duration>
 
-		<itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
 
-	</item>
+    </item>
 
-	<item>
+    <item>
 
-		<title>Robit Radio Ep. 002</title>
+      <title>Robit Radio Ep. 003</title>
 
-		<itunes:author>DJ Robit</itunes:author>
+      <itunes:author>DJ Robit</itunes:author>
 
-		<itunes:subtitle>Robit Radio Ep. 002</itunes:subtitle>
+      <itunes:subtitle>Robit Radio Ep. 003</itunes:subtitle>
 
-		<itunes:summary>Robit Radio Ep. 002</itunes:summary>
+      <itunes:summary>Robit Radio Ep. 003</itunes:summary>
 
-		<itunes:image href="http://www.djrobit.com/podcast/cover.png" />
+      <itunes:image href="http://www.djrobit.com/podcast/cover.png" />
 
-		<enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_002.mp3" length="57608758" type="audio/mpeg" />
+      <enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_003.mp3" length="57632163" type="audio/mpeg" />
 
-		<guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_002.mp3</guid>
+      <guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_003.mp3</guid>
 
-		<pubDate>Tue, 11 Feb 2014 20:00:00 PST</pubDate>
+      <pubDate>Sun, 09 Mar 2014 20:00:00 PST</pubDate>
 
-		<itunes:duration>01:00:01</itunes:duration>
+      <itunes:duration>01:00:02</itunes:duration>
 
-		<itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
 
-	</item>
+    </item>
 
-	<item>
+    <item>
 
-		<title>Robit Radio Ep. 001</title>
+      <title>Robit Radio Ep. 002</title>
 
-		<itunes:author>DJ Robit</itunes:author>
+      <itunes:author>DJ Robit</itunes:author>
 
-		<itunes:subtitle>Robit Radio Ep. 001</itunes:subtitle>
+      <itunes:subtitle>Robit Radio Ep. 002</itunes:subtitle>
 
-		<itunes:summary>Robit Radio Ep. 001</itunes:summary>
+      <itunes:summary>Robit Radio Ep. 002</itunes:summary>
 
-		<itunes:image href="http://www.djrobit.com/podcast/cover.png" />
+      <itunes:image href="http://www.djrobit.com/podcast/cover.png" />
 
-		<enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_001.mp3" length="4291704" type="audio/mpeg" />
+      <enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_002.mp3" length="57608758" type="audio/mpeg" />
 
-		<guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_001.mp3</guid>
+      <guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_002.mp3</guid>
 
-		<pubDate>Wed, 9 Jan 2014 20:00:00 PST</pubDate>
+      <pubDate>Tue, 11 Feb 2014 20:00:00 PST</pubDate>
 
-		<itunes:duration>44:44</itunes:duration>
+      <itunes:duration>01:00:01</itunes:duration>
 
-		<itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
 
-	</item>
+    </item>
 
-</channel>
+    <item>
+
+      <title>Robit Radio Ep. 001</title>
+
+      <itunes:author>DJ Robit</itunes:author>
+
+      <itunes:subtitle>Robit Radio Ep. 001</itunes:subtitle>
+
+      <itunes:summary>Robit Radio Ep. 001</itunes:summary>
+
+      <itunes:image href="http://www.djrobit.com/podcast/cover.png" />
+
+      <enclosure url="http://robit.s3.amazonaws.com/Robit_Radio_Episode_001.mp3" length="4291704" type="audio/mpeg" />
+
+      <guid>http://robit.s3.amazonaws.com/Robit_Radio_Episode_001.mp3</guid>
+
+      <pubDate>Wed, 9 Jan 2014 20:00:00 PST</pubDate>
+
+      <itunes:duration>44:44</itunes:duration>
+
+      <itunes:explicit>no</itunes:explicit>
+
+    </item>
+
+  </channel>
 
 </rss>
 
